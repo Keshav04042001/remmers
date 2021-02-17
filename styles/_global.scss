@@ -1,9 +1,11 @@
-body{
+*{
     margin: 0;
     padding: 0;
     outline: none;
     border: none;
     text-decoration: none;
+    box-sizing: border-box;
+    background-color: #1e73b3;
 }
 a{
     text-decoration: none;
