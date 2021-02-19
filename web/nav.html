@@ -1,5 +1,15 @@
 <!-- this is nav bar -->
-<header class="bg-gray-400 text-gray-600 body-font">
+
+<script>
+  $("#pricing").click(function(){
+    $(".content").load("./web/pricing.html");
+  });
+  $("#shop").click(function(){
+    $(".content").load("./web/emptypage.html");
+  });
+</script>
+
+<header class="bg-gray-400 text-gray-600 body-font shadow-xl">
     <div class="bg-gray-400 container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center sm:flex-col">
       <a class="flex bg-gray-400 title-font font-medium items-center text-gray-900 mb-4 md:mb-0 cursor-pointer">
         <svg

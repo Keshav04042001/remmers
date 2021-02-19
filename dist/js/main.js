@@ -1,7 +1,9 @@
-$(document).ready(()=>{
+$(document).ready(function(){
+
     $(".nav-bar").load("./web/nav.html")
-    $("#pricing").click(()=>{
-        console.log("hiii");
-        $(".content").load("./web/pricing.html")
+
+    $("#pricing").click(function(){
+      $(".content").load("./web/pricing.html");
     });
-)};
+  });
+
