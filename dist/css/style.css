@@ -1,0 +1,21 @@
+*, body {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
